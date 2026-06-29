@@ -3,6 +3,23 @@ data/raw/*.fastq
 data/raw/*.fastq.gz
 data/trimmed/*.fastq
 data/trimmed/*.fastq.gz
+data/raw/
+data/trimmed/
+
+# SRA downloads
+*.sra
+
+# Alignment files
+*.sam
+*.bam
+*.bai
+
+# FastQC outputs
+*_fastqc.html
+*_fastqc.zip
+
+# MultiQC
+multiqc_data/
 
 # History files
 .Rhistory
