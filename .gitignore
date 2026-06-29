@@ -1,3 +1,9 @@
+#Raw Sequencing data
+data/raw/*.fastq
+data/raw/*.fastq.gz
+data/trimmed/*.fastq
+data/trimmed/*.fastq.gz
+
 # History files
 .Rhistory
 .Rapp.history
